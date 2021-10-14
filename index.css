@@ -1,0 +1,58 @@
+body{
+    width:100%;
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+@font-face {
+	font-family: 'freshskin';
+    src:url('../fonts/iconfont.ttf');
+}  
+#top{
+    position: relative;
+    width:100%;
+}
+#logo{
+    position: absolute;
+    top:0;
+    width:100%; 
+    height:40px; 
+    background-color: #333;
+}
+nav{
+    position: absolute;
+    top:40px;
+    width:100%;
+    height:80px;
+    background-color:rgba(0,0,0,.2); 
+}
+video{
+    width:100%;
+	min-width: 1280px;
+}
+#main-img{
+    position:absolute;
+    top:25%;
+    left:25%;
+}
+.beFlex{
+    display: flex;
+    flex-direction: row;
+}
+#contain-1,#contain-2,#contain-3{
+    width:100%;
+    margin-top:100px;
+}
+.top-img{
+    width:500px;
+    height:150px;
+    margin-left:35%;
+   
+}
+.top-img img{
+    border:transparent solid 2px;
+    border-radius: 50px;
+}
+.itemBox{
+    /* width:; */
+}
