@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,24 @@
     <title>FRESHSKIN</title>
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
     <div id="top">
-        <div id="logo" class="beFlex">
+        <div id="logo">
             <img src="images/logo.png" alt="logo">
-            <a href="javascript:void">登录</a>
-            <a href="javascript:void">注册</a>
+            <div class="link">
+                <a href="javascript:void">登录</a>
+                <a href="javascript:void">注册</a>
+            </div>
         </div>
-        <nav class="beFlex">
-            <img src="images/sanxian.png" alt="select">
-            <input type="text">
-            <div class="item">
+        <nav>
+            <div id="select"><img src="images/sanxian.png" alt="select"></div>
+            <input type="text" id="textInput">
+            <div class="beFlex" id="items">
                 <a href="#">music</a>
- 				<a href="#">audio</a>
- 				<a href="#">facebook</a>
- 				<a href="#">tiwwer</a>
+                <a href="#">audio</a>
+                <a href="#">facebook</a>
+                <a href="#">tiwwer</a>
             </div>
         </nav>
         <video src="video/home_loop_720p.mp4">该浏览器不支持播放此视频，请使用其他浏览器观看</video>
@@ -33,33 +37,33 @@
         </div>
     </div>
     <div id="contain-1">
-        <div class="top-img">
+        <div class="top-img otherImg">
             <img src="images/new.jpg" alt="new">
-            <p>补水保湿 提亮肤色 低敏配方 收缩毛孔 滋养容颜</p>
         </div>
+        <p style="color:palevioletred">补水保湿 提亮肤色 低敏配方 收缩毛孔 滋养容颜</p>
         <div class="itemBox beFlex">
-            <img src="images/pic1.jpg" alt="pic1">
-            <img src="images/pic2.jpg" alt="pic2">
-            <img src="images/pic3.jpg" alt="pic3">
+            <div class="imgBorder"><img src="images/pic1.jpg" alt="pic1"></div>
+            <div class="imgBorder"><img src="images/pic2.jpg" alt="pic2"></div>
+            <div class="imgBorder"><img src="images/pic3.jpg" alt="pic3"></div>
         </div>
     </div>
     <div id="contain-2">
         <div class="top-img">
             <img src="images/shizhuang.jpg" alt="new">
-            <p>美化容貌 增添自信 突出个性</p>
         </div>
+        <p style="color:white">美化容貌 增添自信 突出个性</p>
         <div class="itemBox beFlex">
-           <div class="item"><img src="images/try1.jpg" alt=""></div>
-           <div class="item"><img src="images/try2.jpg" alt=""></div>
-           <div class="item"><img src="images/try3.jpg" alt=""></div>
+            <div class="item"><img src="images/try1.jpg" alt=""></div>
+            <div class="item"><img src="images/try2.jpg" alt=""></div>
+            <div class="item"><img src="images/try3.jpg" alt=""></div>
         </div>
     </div>
     <div id="contain-3">
         <div class="top-img">
             <img src="images/cp.jpg" alt="new">
-            <p>评测 我们更专业 用户更放心</p>
         </div>
-        <div class="itemBox beFlex">
+        <p style="color:palevioletred">评测 我们更专业 用户更放心</p>
+        <div class="itemBox beFlex other">
             <div class="item"><img src="images/cp1.jpg" alt=""></div>
             <div class="item"><img src="images/cp2.jpg" alt=""></div>
             <div class="item"><img src="images/cp3.jpg" alt=""></div>
@@ -73,4 +77,5 @@
     <footer></footer>
     <div id="freshskin"></div>
 </body>
+
 </html>
