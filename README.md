@@ -1,2 +1,4 @@
 # fresh
-A practise
+## 一个静态网页练习
+HTML + CSS
+
